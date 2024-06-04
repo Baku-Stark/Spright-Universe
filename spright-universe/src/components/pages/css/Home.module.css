@@ -1,0 +1,15 @@
+div.landing_page, div.landing_page_panel{
+    width: 100%;
+    height: 100vh;
+}
+
+div.landing_page{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../../public/landing.gif");
+}
+
+div.landing_page div.landing_page_panel{
+    background-image: linear-gradient(180deg, #8080803a, #000);
+}

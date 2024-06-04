@@ -2,10 +2,10 @@
     padding: 10px;
     text-decoration: none;
     color: var(--link);
-    background-color: #1D1D1D;
+    background-color: var(--background-2);
 }
 
 .layouts_btn:hover{
     color: var(--link-hover);
-    background-color: var(--background-btns-hover);
+    background-color: var(--background-3);
 }
