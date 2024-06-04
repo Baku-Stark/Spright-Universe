@@ -14,7 +14,10 @@ export function Home(){
 
             <div className={styles.landing_page}>
                 <div className={styles.landing_page_panel}>
-                    <h1>Spright Universe</h1>
+                    <h1 className={styles.landing_title}>Spright Universe</h1>
+                    <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Helvetica&weight=700&pause=1000&color=36BCF7&random=false&width=435&lines=Construa+sua+hist%C3%B3ria+no+mundo+Spright." alt="Typing SVG" /></a>
+
+                    <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Arial&weight=500&pause=1000&color=36BCF790&random=false&width=435&lines=Escolha+ser+o+salvador+ou+um+vil%C3%A3o..." alt="Typing SVG" /></a> 
                 </div>
             </div>
             <SectionContainer title={"Bem-vindo ao RPG!"} html={

@@ -1,3 +1,8 @@
+@font-face{
+  font-family: 'Critical Mass';
+  src: url("./public/font/critical-mass-ldr.ttf") format('truetype');
+}
+
 :root{
   --background-1: #2E3035;
   --background-2: #232428;
