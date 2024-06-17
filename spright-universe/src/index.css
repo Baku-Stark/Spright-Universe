@@ -1,6 +1,6 @@
 @font-face{
   font-family: 'Critical Mass';
-  src: url("./public/font/critical-mass-ldr.ttf") format('truetype');
+  src: url("./assets/font/critical-mass-ldr.ttf") format('truetype');
 }
 
 :root{
@@ -30,4 +30,8 @@ main {
   gap: 50px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+}
+
+ol li, ul li{
+  margin-bottom: 1rem;
 }

@@ -7,7 +7,7 @@ div.landing_page{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../../../public/landing.gif");
+    background-image: url("../../../img/landing.gif");
 }
 
 div.landing_page div.landing_page_panel{
