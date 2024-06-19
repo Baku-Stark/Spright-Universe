@@ -30,11 +30,11 @@ export function Home(){
                         </p>
                         <aside>
                             <LinkButton
-                            link_set="/spright_universe/server/docs" 
+                            link_set="/spright_universe/server/docs/" 
                             text="Servidor - Documentação"
                             />
                             <LinkButton
-                            link_set="/spright_universe/bot/docs" 
+                            link_set="/spright_universe/bot/docs/" 
                             text="Imu-Sama - Documentação"
                             />
                         </aside>

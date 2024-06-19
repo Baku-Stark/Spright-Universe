@@ -19,10 +19,12 @@ export function FooterContainer(){
                     </Link>
                 </aside>
                 <aside>
-                    <Link to={"#"} target={'_blank'} id={styles.helper}>
+                    <Link to={"/spright_universe/server_support/"}
+                    id={styles.helper}>
                         Suporte
                     </Link>
-                    <Link to={"#"} target={'_blank'} id={styles.helper}>
+                    <Link to={"/spright_universe/about_server/"}
+                    id={styles.helper}>
                         Sobre o servidor
                     </Link>
                     <Link to={"https://discord.com/guidelines/"} target={'_blank'} id={styles.helper}>
