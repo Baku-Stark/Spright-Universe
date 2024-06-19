@@ -14,10 +14,10 @@ function App() {
             <Home/>
           }>
           </Route>
-          <Route path={"/docs"} element={
+          <Route path={"/spright_universe/server/docs"} element={
             <Documentation/>
           }></Route>
-          <Route path={"/bot/docs"} element={
+          <Route path={"/spright_universe/bot/docs"} element={
             <BotDocumentation/>
           }></Route>
         </Routes>

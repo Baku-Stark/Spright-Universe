@@ -13,17 +13,17 @@ export function FooterContainer(){
                     <img src={Logo} alt="Logo Footer" />
                 </figure>
                 <aside>
-                    <Link to={"link servidor"} id={styles.link_button}>
+                    <Link to={"https://discord.gg/pegWpG3w"} id={styles.link_button} target={'_blank'}>
                         <i className={"bi bi-discord"}></i>
                         Servidor Discord
                     </Link>
                 </aside>
                 <aside>
                     <Link to={"#"} target={'_blank'} id={styles.helper}>
-                        Sobre
+                        Suporte
                     </Link>
                     <Link to={"#"} target={'_blank'} id={styles.helper}>
-                        Suporte
+                        Sobre o servidor
                     </Link>
                     <Link to={"https://discord.com/guidelines/"} target={'_blank'} id={styles.helper}>
                         Diretrizes do Discord

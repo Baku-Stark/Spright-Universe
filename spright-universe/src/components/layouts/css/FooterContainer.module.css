@@ -53,6 +53,8 @@ section.footer_links_content #link_button:hover{
 
 section.footer_links_content #helper{
     display: block;
+    font-size: 1rem;
+    margin: 1rem 0;
     transition: 0.3s ease-in-out;
     font-family: 'Critical Mass';
 }

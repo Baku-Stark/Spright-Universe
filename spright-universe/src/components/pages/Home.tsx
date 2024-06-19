@@ -24,11 +24,20 @@ export function Home(){
             </div>
             <SectionContainer title={"Bem-vindo ao RPG!"} html={
                 <>   
-                    {/* <LinkButton link_set="/docs" text="Server Documentation" /> */}
                     <section>
                         <p className={styles.text_center}>
                             Saudações, aventureiro! Estamos entusiasmados em tê-lo conosco em nossa jornada através de mundos mágicos, terras misteriosas e reinos repletos de desafios épicos. Aqui, a imaginação é o limite, e cada um de nós tem um papel fundamental a desempenhar na construção de histórias inesquecíveis. <strong>🛡️ Vamos ao jogo! ⚔️</strong>
                         </p>
+                        <aside>
+                            <LinkButton
+                            link_set="/spright_universe/server/docs" 
+                            text="Servidor - Documentação"
+                            />
+                            <LinkButton
+                            link_set="/spright_universe/bot/docs" 
+                            text="Imu-Sama - Documentação"
+                            />
+                        </aside>
                     </section>
                     <hr />
                     <section>

@@ -14,6 +14,7 @@ div.section_container_title{
 
 div.section_container_title h1.main_title{
     font-size: 2rem;
+    margin: 10px;
     color: var(--color);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -67,6 +68,14 @@ section div.section_container_body{
     color: var(--color);
 }
 
-div.section_container_body p{
+div.section_container_body p,
+div.section_container_body aside{
     text-align: center;
+}
+
+div.section_container_body aside{
+    gap: 20px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
 }
