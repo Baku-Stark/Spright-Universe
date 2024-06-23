@@ -1,0 +1,36 @@
+section.rules_section div{
+    margin-bottom: 5vh;
+}
+
+section article h3{
+    margin-bottom: 1.5rem;
+}
+
+section.rules_section article li,
+section.rules_section article span{
+    padding: 10px;
+}
+
+section.rules_section ul.tags_violation li{
+    list-style: none;
+}
+
+section.rules_section article span{
+    border-radius: 15px;
+}
+
+section.rules_section article span.rule_adv{
+    background-color: var(--bs-yellow);
+}
+
+section.rules_section article span.rule_mute{
+    background-color: var(--bs-orange);
+}
+
+section.rules_section article span.rule_kick{
+    background-color: var(--bs-red);
+}
+
+section.rules_section article span.rule_ban{
+    background-color: #ff0000;
+}

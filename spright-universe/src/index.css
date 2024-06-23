@@ -23,11 +23,14 @@
 }
 
 body{
-  background-color: var(--background-1);
+  background-image: url("img/bg_main.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 main {
-  gap: 50px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }

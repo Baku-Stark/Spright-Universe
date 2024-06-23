@@ -70,3 +70,9 @@ footer section.footer_copiright_content{
     text-align: center;
     background-color: #000000;
 }
+
+@media screen and (max-width: 991px){
+    section.footer_links_content aside{
+        flex-direction: column;
+    }
+}

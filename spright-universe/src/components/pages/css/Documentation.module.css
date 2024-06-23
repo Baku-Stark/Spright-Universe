@@ -1,0 +1,64 @@
+section.section_card_doctumentation{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    justify-items: center;
+}
+
+section.section_card_doctumentation div.card{
+    width: 40rem;
+}
+
+div.card .bg_dark{
+    padding: 10px;
+    font-weight: bold;
+    color: var(--color);
+    background-color: var(--background-4);
+}
+
+div.card .bg_dark i{
+    margin: 5px;
+}
+
+div.card div.card_body .card_body_text{
+    padding: 30px;
+    background-color: #000000d5;
+}
+
+div.card_body .card_body_text p{
+    color: var(--color);
+}
+
+div.card div.s_1{
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../../img/card_banner_1.jpeg");
+}
+
+div.card div.s_2{
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../../img/card_banner_2.jpeg");
+}
+
+div.card div.s_3{
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../../img/card_banner_3.jpeg");
+}
+
+div.card div.s_4{
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../../img/card_banner_4.jpeg");
+}
+
+@media screen and (max-width: 991px){
+    section.section_card_doctumentation{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    section.section_card_doctumentation div.card{
+        width: 100%;
+    }
+}

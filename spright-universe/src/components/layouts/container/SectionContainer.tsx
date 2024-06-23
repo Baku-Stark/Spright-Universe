@@ -1,6 +1,10 @@
+import { useEffect } from 'react';
 import styles from '../css/SectionContainer.module.css'
 
 export function SectionContainer({title, html} : any){
+    useEffect(() => {
+        document.documentElement.scrollIntoView(true);
+    });
     return(
         <section className={`${styles.section_container} ${styles.section}`}>
 
@@ -15,6 +19,7 @@ export function SectionContainer({title, html} : any){
                 </aside>
             </div>
 
+            {/* PARTE DO HTML <section> */}
             <div className={styles.section_container_body}>
                 {html}
             </div>
