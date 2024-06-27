@@ -38,3 +38,7 @@ main {
 ol li, ul li{
   margin-bottom: 1rem;
 }
+
+form div{
+  margin: 15px 0;
+}

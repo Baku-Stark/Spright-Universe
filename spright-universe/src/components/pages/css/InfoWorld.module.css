@@ -1,0 +1,12 @@
+div h2{
+    padding: 15px;
+    text-decoration: underline;
+}
+
+div h2 i{
+    color: #008b8b;
+}
+
+div .opacity_1{
+    opacity: .5;
+}

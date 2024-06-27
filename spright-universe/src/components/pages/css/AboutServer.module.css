@@ -1,0 +1,37 @@
+tr td,
+tr th{
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+section.table_container{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.table_container table{
+    width: 100%;
+}
+
+.table_container table thead tr{
+    text-align: center;
+    
+}
+
+.table_container table thead tr th{
+    padding: 25px;
+    font-family: 'Critical Mass';
+    background-color: #00000090;
+}
+
+.table_container table tbody tr td i{
+    font-size: 2.1rem;
+}
+
+@media screen and (max-width: 991px){
+    .table_container table tbody tr td p{
+        display: none;
+    }
+}

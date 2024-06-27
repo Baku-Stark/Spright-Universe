@@ -8,8 +8,6 @@ Bem-vindo ao repositório do Spright Universe, um site inovador projetado para o
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Ferramentas Utilizadas](#contribuindo)
-- [Licença](#licença)
-- [Contato](#contato)
 
 ## Visão Geral
 
@@ -19,10 +17,10 @@ A ideia da criação do servidor foi para o criador, Baku-Stark, possa melhorar 
 
 ## Funcionalidades
 
-- **Interface Amigável**: Design intuitivo e responsivo para garantir a melhor experiência em qualquer dispositivo.
-- **Conteúdos Dinâmicos**: Atualização constante de conteúdos para manter os usuários informados e engajados.
-- **Sistema de Usuários**: Cadastro e login de usuários para acesso a conteúdos exclusivos.
-- **Integração com Redes Sociais**: Compartilhamento fácil de conteúdos em diversas plataformas sociais.
+- [x] **Interface Amigável**: Design intuitivo e responsivo para garantir a melhor experiência em qualquer dispositivo.
+- [x] **Conteúdos Dinâmicos**: Atualização constante de conteúdos para manter os usuários informados e engajados.
+- [] **Sistema de Usuários**: Cadastro e login de usuários para acesso a conteúdos exclusivos.
+- [] **Integração com Redes Sociais**: Compartilhamento fácil de conteúdos em diversas plataformas sociais.
 
 ## Tecnologias Utilizadas
 

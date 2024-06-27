@@ -2,6 +2,8 @@ import { Helmet } from "react-helmet-async"
 import { SectionContainer } from "../layouts/container/SectionContainer"
 import { LinkButton } from "../layouts/buttons/LinkButton"
 
+import styles from './css/InfoWorld.module.css'
+
 export function InfoWorld(){
     return(
         <>
@@ -40,21 +42,32 @@ export function InfoWorld(){
                             </p>
                         </div>
                         <div>
-                            <h2>A Nova Ordem Mundial</h2>
-                            <p>
+                            <h2 className={"text-center"}>
+                                <i className="bi bi-arrow-return-right"></i>
+                                A Nova Ordem Mundial
+                                <i className="bi bi-arrow-return-left"></i>
+                            </h2>
+                            <p className={styles.opacity_1}>
                                 Com o aumento da população de Despertos, surgiram conflitos entre aqueles que desejavam usar seus poderes para dominar o mundo e aqueles que queriam proteger a humanidade. Superpotências globais começaram a treinar equipes de Despertos para missões especiais, ou empresas privadas faziam isso através de contratos, tanto defensivas quanto ofensivas.
                             </p>
                         </div>
                         <div>
-                            <h2>Evolução e Convivência</h2>
-                            <p>
+                            <h2 className={"text-center"}>
+                                <i className="bi bi-arrow-return-right"></i>
+                                Evolução e Convivência
+                                <i className="bi bi-arrow-return-left"></i>
+                            </h2>
+                            <p className={styles.opacity_1}>
                                 Décadas se passaram, e a sociedade aprendeu a coexistir com os Despertos. A Energia Spright tornou-se uma parte fundamental da vida na Terra, influenciando tudo, desde a medicina até a tecnologia. Algumas cidades foram reconstruídas com a ajuda dos poderes dos Despertos, enquanto outras ainda sofriam com os conflitos entre diferentes facções.
                             </p>
                         </div>
                         <div>
-                            <h2>O Futuro da Humanidade
+                            <h2 className={"text-center"}>
+                                <i className="bi bi-arrow-return-right"></i>
+                                Futuro da Humanidade
+                                <i className="bi bi-arrow-return-left"></i>
                             </h2>
-                            <p>
+                            <p className={styles.opacity_1}>
                                 O futuro da humanidade continua incerto. A Energia Spright, apesar de ser uma fonte de grande poder, também é imprevisível e perigosa. Cientistas e líderes mundiais trabalham incansavelmente para entender seus mistérios e garantir que seu uso seja responsável. No entanto, com o surgimento contínuo de novos Despertos e a evolução de seus poderes, a humanidade deve permanecer vigilante e adaptável. 
                             </p>
                         </div>
