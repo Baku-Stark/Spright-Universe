@@ -78,5 +78,6 @@ footer section.footer_copiright_content{
 
     section.footer_links_content #helper{
         font-size: 0.8rem;
+        text-align: center;
     }
 }
