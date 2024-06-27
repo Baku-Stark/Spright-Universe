@@ -5,6 +5,7 @@ import { Documentation } from './components/pages/Documentation'
 import { BotDocumentation } from './components/pages/BotDocumentation'
 import { AboutServer } from './components/pages/AboutServer'
 import { SupportServer } from './components/pages/SupportServer.tsx'
+import { InfoWorld } from './components/pages/InfoWorld.tsx'
 import { RulesServer } from './components/pages/RulesServer'
 
 import { FooterContainer } from './components/layouts/container/FooterContainer'
@@ -29,6 +30,9 @@ function App() {
           }></Route>
           <Route path={"/spright_universe/server_support/"} element={
             <SupportServer/>
+          }></Route>
+          <Route path={"/spright_universe/server_info_world/"} element={
+            <InfoWorld/>
           }></Route>
           <Route path={"/spright_universe/server_rules/"} element={
             <RulesServer/>

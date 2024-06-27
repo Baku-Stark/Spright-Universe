@@ -15,6 +15,8 @@ Bem-vindo ao repositório do Spright Universe, um site inovador projetado para o
 
 O Spright Universe é um site interativo criado para proporcionar uma experiência única aos seus usuários. Com um design moderno e funcionalidades avançadas, o site é ideal para aqueles que buscam uma navegação intuitiva e conteúdos envolventes.
 
+A ideia da criação do servidor foi para o criador, Baku-Stark, possa melhorar suas habilidades em Full-Stack.
+
 ## Funcionalidades
 
 - **Interface Amigável**: Design intuitivo e responsivo para garantir a melhor experiência em qualquer dispositivo.

@@ -13,7 +13,7 @@ export function FooterContainer(){
                     <img src={Logo} alt="Logo Footer" />
                 </figure>
                 <aside>
-                    <Link to={"https://discord.gg/pegWpG3w"} id={styles.link_button} target={'_blank'}>
+                    <Link to={"https://discord.gg/95EZ7R9DuY"} id={styles.link_button} target={'_blank'}>
                         <i className={"bi bi-discord"}></i>
                         Servidor Discord
                     </Link>

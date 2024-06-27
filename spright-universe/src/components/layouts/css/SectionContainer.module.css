@@ -81,3 +81,10 @@ div.section_container_body aside{
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 991px){
+    .section_container_body section aside{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

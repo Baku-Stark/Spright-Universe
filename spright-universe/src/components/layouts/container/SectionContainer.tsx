@@ -1,7 +1,12 @@
-import { useEffect } from 'react';
+import { ReactNode, useEffect } from 'react';
 import styles from '../css/SectionContainer.module.css'
 
-export function SectionContainer({title, html} : any){
+interface ComponentProps{
+    title : string;
+    html : ReactNode;
+}
+
+export function SectionContainer({title, html} : ComponentProps){
     useEffect(() => {
         document.documentElement.scrollIntoView(true);
     });

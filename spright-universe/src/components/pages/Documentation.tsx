@@ -34,7 +34,7 @@ export function Documentation(){
                             </div>
                             <div className={`${styles.card_body} ${styles.s_1}`}>
                                 <div className={styles.card_body_text}>
-                                    <p className="card-text">Personagem não jogáveis do RPG. Eles servirão para ajudá-los.</p>
+                                    <p className="card-text">Personagens NPCs e registrados no RPG.</p>
                                 </div>
                             </div>
                             <div className={`card-footer ${styles.bg_dark}`}>
