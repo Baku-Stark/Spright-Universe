@@ -9,7 +9,7 @@ export function Home(){
     return(
         <>
             <Helmet>
-                <title>Spright Universe [RPG] | Home</title>
+                <title>Spright Universe {"[RPG]"} | Home</title>
             </Helmet>
 
             <div className={styles.landing_page}>

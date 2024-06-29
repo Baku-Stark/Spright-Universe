@@ -1,9 +1,9 @@
-import { ReactNode, useEffect } from 'react';
+import { useEffect } from 'react';
 import styles from '../css/SectionContainer.module.css'
 
 interface ComponentProps{
     title : string;
-    html : ReactNode;
+    html : JSX.Element;
 }
 
 export function SectionContainer({title, html} : ComponentProps){

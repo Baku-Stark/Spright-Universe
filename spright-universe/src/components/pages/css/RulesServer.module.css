@@ -34,3 +34,10 @@ section.rules_section article span.rule_kick{
 section.rules_section article span.rule_ban{
     background-color: #ff0000;
 }
+
+@media screen and (max-width: 991px){
+    section.rules_section ul.tags_violation li{
+        display: flex;
+        align-items: center;
+    }
+}

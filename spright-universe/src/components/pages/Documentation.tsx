@@ -38,7 +38,7 @@ export function Documentation(){
                                 </div>
                             </div>
                             <div className={`card-footer ${styles.bg_dark}`}>
-                                <Link to={"/spright_universe/server_chars/"}>acessar</Link>
+                                <Link to={"/spright_universe/server/docs/server_chars/"}>acessar</Link>
                             </div>
                         </div>
 
@@ -53,7 +53,7 @@ export function Documentation(){
                                 </div>
                             </div>
                             <div className={`card-footer ${styles.bg_dark}`}>
-                                <Link to={"/spright_universe/server_info_world/"}>acessar</Link>
+                                <Link to={"/spright_universe/server/docs/server_info_world/"}>acessar</Link>
                             </div>
                         </div>
 
@@ -68,7 +68,7 @@ export function Documentation(){
                                 </div>
                             </div>
                             <div className={`card-footer ${styles.bg_dark}`}>
-                                <Link to={"/spright_universe/server_companys/"}>acessar</Link>
+                                <Link to={"/spright_universe/server/docs/server_companys/"}>acessar</Link>
                             </div>
                         </div>
 
@@ -83,7 +83,7 @@ export function Documentation(){
                                 </div>
                             </div>
                             <div className={`card-footer ${styles.bg_dark}`}>
-                                <Link to={"/spright_universe/server_rules/"}>acessar</Link>
+                                <Link to={"/spright_universe/server/docs/server_rules/"}>acessar</Link>
                             </div>
                         </div>
                     </section>

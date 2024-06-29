@@ -5,10 +5,12 @@ import { Documentation } from './components/pages/Documentation'
 import { BotDocumentation } from './components/pages/BotDocumentation'
 import { AboutServer } from './components/pages/AboutServer'
 import { SupportServer } from './components/pages/SupportServer.tsx'
-import { InfoWorld } from './components/pages/InfoWorld.tsx'
+import { InfoWorld } from './components/pages/InfoWorld'
 import { RulesServer } from './components/pages/RulesServer'
+import { CharsServer } from './components/pages/CharsServer'
 
 import { FooterContainer } from './components/layouts/container/FooterContainer'
+import { Companys } from './components/pages/Companys.tsx'
 
 function App() {
   return (
@@ -19,9 +21,6 @@ function App() {
             <Home/>
           }>
           </Route>
-          <Route path={"/spright_universe/server/docs/"} element={
-            <Documentation/>
-          }></Route>
           <Route path={"/spright_universe/bot/docs/"} element={
             <BotDocumentation/>
           }></Route>
@@ -31,10 +30,20 @@ function App() {
           <Route path={"/spright_universe/server_support/"} element={
             <SupportServer/>
           }></Route>
-          <Route path={"/spright_universe/server_info_world/"} element={
+          {/* DOCUMENTAÇÃO [SERVIDOR] */}
+          <Route path={"/spright_universe/server/docs/"} element={
+            <Documentation/>
+          }></Route>
+          <Route path={"/spright_universe/server/docs/server_companys"} element={
+            <Companys/>
+          }></Route>
+          <Route path={"/spright_universe/server/docs/server_chars/"} element={
+            <CharsServer/>
+          }></Route>
+          <Route path={"spright_universe/server/docs/server_info_world/"} element={
             <InfoWorld/>
           }></Route>
-          <Route path={"/spright_universe/server_rules/"} element={
+          <Route path={"/spright_universe/server/docs/server_rules/"} element={
             <RulesServer/>
           }></Route>
         </Routes>

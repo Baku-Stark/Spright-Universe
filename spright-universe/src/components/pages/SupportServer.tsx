@@ -1,7 +1,8 @@
 import { ChangeEvent, useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { LinkButton } from "../layouts/buttons/LinkButton";
+import { useNavigate } from "react-router-dom";
 
+import { LinkButton } from "../layouts/buttons/LinkButton";
 import { SectionContainer } from "../layouts/container/SectionContainer";
 
 import { IReportAuth } from "../../interfaces/Form";
@@ -9,7 +10,20 @@ import { IReportAuth } from "../../interfaces/Form";
 import styles from './css/SupportServer.module.css';
 
 export function SupportServer(){
+    const navigate = useNavigate();
     const [report, setReport] = useState<IReportAuth>()
+
+    // ---- INPUT
+    function ChangeInput(event: ChangeEvent<HTMLInputElement>){
+        //console.log(event.target.value);
+        setReport({...report, [event.target.name]: event.target.value});
+    }
+
+    // ---- TEXT AREA
+    function ChangeTextArea(event: ChangeEvent<HTMLTextAreaElement>){
+        //console.log(event.target.value);
+        setReport({...report, comment: event.target.value});
+    }
 
     function SendReport(event : React.FormEvent<HTMLFormElement>){
         event.preventDefault();
@@ -23,20 +37,9 @@ export function SupportServer(){
         }
         
         finally{
-            console.log("Report send!");
+            //console.log("Report send!");
+            navigate("/spright_universe/server/docs/server_rules/");
         }
-    }
-
-    // ---- INPUT
-    function ChangeInput(event: ChangeEvent<HTMLInputElement>){
-        //console.log(event.target.value);
-        setReport({...report, [event.target.name]: event.target.value});
-    }
-
-    // ---- TEXT AREA
-    function ChangeTextArea(event: ChangeEvent<HTMLTextAreaElement>){
-        //console.log(event.target.value);
-        setReport({...report, comment: event.target.value});
     }
 
     return(
