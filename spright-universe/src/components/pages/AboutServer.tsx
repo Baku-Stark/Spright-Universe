@@ -14,9 +14,6 @@ export function AboutServer(){
                 <>
                     <section>
                         <p>
-                            O Spright Universe é um site interativo criado para proporcionar uma experiência única aos seus usuários. Com um design moderno e funcionalidades avançadas, o site é ideal para aqueles que buscam uma navegação intuitiva e conteúdos envolventes.
-                        </p>
-                        <p>
                             A ideia da criação do servidor foi para o criador, Baku-Stark, possa melhorar suas habilidades em Full-Stack.
                         </p>
                         <aside>
@@ -32,6 +29,9 @@ export function AboutServer(){
                     </section>
                     <hr />
                     <section className={styles.table_container}>
+                        <p>
+                            O Spright Universe é um site interativo criado para proporcionar uma experiência única aos seus usuários. Com um design moderno e funcionalidades avançadas, o site é ideal para aqueles que buscam uma navegação intuitiva e conteúdos envolventes.
+                        </p>
                         <table>
                             <thead>
                                 <tr>
