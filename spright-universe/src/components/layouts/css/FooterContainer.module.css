@@ -1,5 +1,6 @@
 footer{
     color: var(--color);
+    border-top: 1px solid #000000;
     background-color: var(--background-4);
 }
 
@@ -60,10 +61,10 @@ section.footer_links_content #helper{
 }
 
 section.footer_links_content #helper:hover{
-    transition: 0.3s ease-in-out;
+    transition: var(--trans-03);
     color: var(--background-1);
-    -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
 }
 
 footer section.footer_copiright_content{

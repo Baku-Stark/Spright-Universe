@@ -1,3 +1,58 @@
 form.form_body{
+    width: 30%;
+    padding: 15px;
+    border-radius: 15px;
+    backdrop-filter: blur(50px);
+    background-color: #00000090;
+}
+
+form.form_body div{
+    padding: 10px;
+}
+
+form.form_body div textarea{
+    min-height: 123px;
+    max-height: 204px;
+}
+
+form.form_body div input,
+form.form_body div textarea{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    color: var(--color);
+    background-color: var(--background-4);
+}
+
+form.form_body div input:focus,
+form.form_body div textarea:focus{
+    outline: none;
+}
+
+form.form_body div input[type="submit"]{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: var(--trans-03);
+    color: var(--color);
+    background-color: #00000090;
+    font-family: 'Critical Mass';
+}
+
+form.form_body div input[type="submit"]:hover{
+    transition: var(--trans-03);
+    color: var(--background-1);
     background-color: #000000;
+}
+
+form.form_body span abbr{
+    cursor: pointer !important;
+    color: #ff0000;
+}
+
+@media screen and (max-width: 991px){
+    form.form_body{
+        width: 100%;
+    }
 }
