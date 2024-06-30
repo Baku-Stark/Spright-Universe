@@ -1,0 +1,45 @@
+.section_api_container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #00000090;
+    backdrop-filter: blur(50px);
+}
+
+.section_api_container div{
+    padding: 15px;
+}
+
+.section_api_container div.section_api_container_title{
+    text-align: center;
+}
+
+.section_api_container div.section_api_container_title h2{
+    text-decoration: none;
+    color: var(--color-2);
+    font-family: 'Critical Mass';
+}
+
+form.form_body div input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    color: var(--color);
+    background-color: var(--background-4);
+}
+
+form.form_body div input[type="submit"]{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: var(--trans-03);
+    color: var(--color);
+    background-color: #00000090;
+    font-family: 'Critical Mass';
+}
+
+form.form_body div input[type="submit"]:hover{
+    transition: var(--trans-03);
+    color: var(--background-1);
+    background-color: #000000;
+}

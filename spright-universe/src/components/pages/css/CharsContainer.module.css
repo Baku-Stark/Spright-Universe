@@ -1,0 +1,56 @@
+section.character_container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #00000090;
+    backdrop-filter: blur(50px);
+}
+
+section.character_container div{
+    padding: 10px;
+}
+
+section.character_container div.character_name h2{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Critical Mass';
+    animation: rowColors 5.5s linear infinite;
+}
+
+@keyframes rowColors{
+    100%, 0%{
+        text-shadow: 1px 1px 10px #ff0000;
+    }
+    8%{
+        text-shadow: 1px 1px 10px #ff7f00;
+    }
+    16%{
+        text-shadow: 1px 1px 10px #ffff00;
+    }
+    25%{
+        text-shadow: 1px 1px 10px #7fff00;
+    }
+    33%{
+        text-shadow: 1px 1px 10px #00ff00;
+    }
+    41%{
+        text-shadow: 1px 1px 10px #00ff7f;
+    }
+    50%{
+        text-shadow: 1px 1px 10px #00ffff;
+    }
+    58%{
+        text-shadow: 1px 1px 10px #007fff;
+    }
+    66%{
+        text-shadow: 1px 1px 10px #0000ff;
+    }
+    75%{
+        text-shadow: 1px 1px 10px #7f00ff;
+    }
+    83%{
+        text-shadow: 1px 1px 10px #ff00ff;
+    }
+    91%{
+        text-shadow: 1px 1px 10px #ff007f;
+    }
+}

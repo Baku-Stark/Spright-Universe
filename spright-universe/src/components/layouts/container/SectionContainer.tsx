@@ -1,11 +1,6 @@
 import { useEffect } from 'react';
 import styles from '../css/SectionContainer.module.css'
 
-interface ComponentProps{
-    title : string;
-    html : JSX.Element;
-}
-
 export function SectionContainer({title, html} : ComponentProps){
     useEffect(() => {
         document.documentElement.scrollIntoView(true);
