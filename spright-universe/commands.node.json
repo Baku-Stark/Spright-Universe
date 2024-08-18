@@ -1,0 +1,14 @@
+[
+    {
+        "command" : "help",
+        "desc" : "Lista de comandos para utilizar"
+    },
+    {
+        "command" : "hello",
+        "desc" : "Cumprimentar um usuário"
+    },
+    {
+        "command" : "report",
+        "desc" : "Reportar um usuário"
+    }
+]

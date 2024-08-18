@@ -1,0 +1,19 @@
+div.list_commands{
+    padding: 5vh;
+}
+
+div.list_commands ul li{
+    display: flex;
+    align-items: center;
+}
+
+ul li span.command_name{
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 15px;
+    background-color: #00000090;
+}
+
+ul li p.command_desc{
+    opacity: .6;
+}
